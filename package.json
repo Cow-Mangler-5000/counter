@@ -1,6 +1,7 @@
 {
-  "name": "fish",
-  "private": true,
+  "name": "counter",
+  "homepage": "https://cow-mangler-5000.github.io/counter",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -17,5 +18,8 @@
     "svelte-check": "^4.1.1",
     "typescript": "~5.6.2",
     "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
